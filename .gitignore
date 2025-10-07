@@ -1,0 +1,65 @@
+# Sensitive files and directories
+*.env
+*.key
+*.pem
+*.crt
+*.cer
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# ArgoCD tokens and credentials
+.config/argocd/config
+
+# SSH keys
+.ssh/
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# Kubernetes configs with tokens
+.kube/config
+.kube/cache/
+
+# GPG keys
+.gnupg/
+
+# History files that might contain sensitive commands
+.*_history
+.bash_history
+.zsh_history
+.mysql_history
+.psql_history
+.irb_history
+.python_history
+
+# Application tokens and secrets
+.config/gh/hosts.yml
+.config/hub
+.docker/config.json
+.npmrc
+.pypirc
+
+# macOS specific
+.DS_Store
+.Trash/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+
+# IDE configs that might have project-specific secrets
+.vscode/
+.idea/
+
+# Git hooks samples
+*.sample

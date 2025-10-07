@@ -1,0 +1,5 @@
+[user]
+	name = Alan Sandoval
+	email = asandov@asandov.com
+[pull]
+	rebase = false

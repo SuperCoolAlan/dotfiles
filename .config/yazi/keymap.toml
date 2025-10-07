@@ -1,0 +1,10 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "run lazygit"
+
+[[mgr.prepend_keymap]]
+on   = ["f", "s"]
+run  = "plugin rg-search"
+desc = "Search file contents"
+
